@@ -31,3 +31,7 @@ Multi-provider AI system with memory, RAG and tool calling.
 <p align="center">
   <img src="./assets/footer.svg" />
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/banuben/banuben/output/github-contribution-grid-snake-dark.svg" />
+</p>
