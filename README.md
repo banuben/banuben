@@ -1,16 +1,33 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/hero.svg" />
+</p>
 
-<!--
-**banuben/banuben** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="./assets/dashboard.svg" />
+</p>
 
-Here are some ideas to get you started:
+## Selected Work
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Acadia
+Production learning platform focused on scalable education infrastructure.
+
+### Iron Zone Fit
+Full-stack fitness platform built for real-world users.
+
+### AI Production Manager
+Workflow automation and AI orchestration platform.
+
+### AI Assistant Platform
+Multi-provider AI system with memory, RAG and tool calling.
+
+<p align="center">
+  <img src="./assets/ai-focus.svg" />
+</p>
+
+## GitHub Analytics
+
+[stats widgets]
+
+<p align="center">
+  <img src="./assets/footer.svg" />
+</p>
