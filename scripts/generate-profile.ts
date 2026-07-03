@@ -1,12 +1,13 @@
 /**
  * generate-profile.ts
  * -----------------------------------------------------------------------------
- * The dynamic-SVG core. Assets in /assets are authored to keep layout, colors,
- * text and stats in separate, well-named groups (<g id="hero-text">,
- * <g id="background"> …). This script re-stamps the DATA layer — text and
- * numbers pulled from data/stats.json and profile.config.ts — without touching
- * the hand-tuned layout/animation groups. Extend TOKENS below and add new
- * {{placeholders}} to the SVGs to expose more dynamic fields.
+ * Renders assets/github-dashboard.svg by stamping the numbers from
+ * data/stats.json into the placeholder template
+ * assets/github-dashboard.template.svg — {{repos}}, {{stars}}, {{commits}},
+ * {{prs}}, {{followers}}, {{following}}, {{contributions}}, {{updated}} and the
+ * 12 monthly trend fractions {{bar1}}..{{bar12}}.
+ *
+ * The template is never overwritten, so this stays idempotent and re-runnable.
  *
  *   npx tsx scripts/generate-profile.ts
  */
