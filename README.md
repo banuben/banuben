@@ -35,32 +35,67 @@
 </p>
 
 <!-- live animated stack icons -->
-<div align="center">
-  <img src="https://techstack-generator.vercel.app/java-icon.svg"    width="48" height="48" alt="Java" />
-  <img src="https://techstack-generator.vercel.app/python-icon.svg"  width="48" height="48" alt="Python" />
-  <img src="https://techstack-generator.vercel.app/ts-icon.svg"      width="48" height="48" alt="TypeScript" />
-  <img src="https://techstack-generator.vercel.app/js-icon.svg"      width="48" height="48" alt="JavaScript" />
-  <img src="https://techstack-generator.vercel.app/react-icon.svg"   width="48" height="48" alt="React" />
-  <img src="https://techstack-generator.vercel.app/redux-icon.svg"   width="48" height="48" alt="Redux" />
-</div>
-<br/>
-<div align="center">
-  <img src="https://techstack-generator.vercel.app/mysql-icon.svg"   width="48" height="48" alt="MySQL" />
-  <img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="48" height="48" alt="GraphQL" />
-  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="48" height="48" alt="REST API" />
-  <img src="https://techstack-generator.vercel.app/django-icon.svg"  width="48" height="48" alt="Django" />
-  <img src="https://techstack-generator.vercel.app/nginx-icon.svg"   width="48" height="48" alt="Nginx" />
-  <img src="https://techstack-generator.vercel.app/docker-icon.svg"  width="48" height="48" alt="Docker" />
-</div>
-<br/>
-<div align="center">
-  <img src="https://techstack-generator.vercel.app/aws-icon.svg"        width="48" height="48" alt="AWS" />
-  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="48" height="48" alt="Kubernetes" />
-  <img src="https://techstack-generator.vercel.app/github-icon.svg"     width="48" height="48" alt="GitHub" />
-  <img src="https://techstack-generator.vercel.app/prettier-icon.svg"   width="48" height="48" alt="Prettier" />
-  <img src="https://techstack-generator.vercel.app/eslint-icon.svg"     width="48" height="48" alt="ESLint" />
-  <img src="https://techstack-generator.vercel.app/jest-icon.svg"       width="48" height="48" alt="Jest" />
-</div>
+<table align="center">
+<tr>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/java-icon.svg" width="54" alt="Java" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/python-icon.svg" width="54" alt="Python" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/ts-icon.svg" width="54" alt="TypeScript" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/js-icon.svg" width="54" alt="JavaScript" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" width="54" alt="React" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/redux-icon.svg" width="54" alt="Redux" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="54" alt="MySQL" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="54" alt="GraphQL" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="54" alt="REST API" />
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/django-icon.svg" width="54" alt="Django" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/nginx-icon.svg" width="54" alt="Nginx" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/docker-icon.svg" width="54" alt="Docker" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="54" alt="AWS" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="54" alt="Kubernetes" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/github-icon.svg" width="54" alt="GitHub" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/prettier-icon.svg" width="54" alt="Prettier" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/eslint-icon.svg" width="54" alt="ESLint" />
+</td>
+<td align="center">
+<img src="https://techstack-generator.vercel.app/jest-icon.svg" width="54" alt="Jest" />
+</td>
+</tr>
+</table>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
