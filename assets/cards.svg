@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="272" viewBox="0 0 1280 272" fill="none" role="img" aria-label="Profile cards" font-family="&#39;Inter&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241811"></stop>
+      <stop offset="1" stop-color="#1B120A"></stop>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.06"></stop>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"></stop>
+    </linearGradient>
+    <radialGradient id="cg1" cx="0.2" cy="0" r="1"><stop offset="0" stop-color="#F2B25C" stop-opacity="0.12"></stop><stop offset="1" stop-color="#F2B25C" stop-opacity="0"></stop></radialGradient>
+    <radialGradient id="cg2" cx="0.2" cy="0" r="1"><stop offset="0" stop-color="#6DAFA8" stop-opacity="0.12"></stop><stop offset="1" stop-color="#6DAFA8" stop-opacity="0"></stop></radialGradient>
+    <radialGradient id="cg3" cx="0.2" cy="0" r="1"><stop offset="0" stop-color="#D98C7A" stop-opacity="0.12"></stop><stop offset="1" stop-color="#D98C7A" stop-opacity="0"></stop></radialGradient>
+    <radialGradient id="cg4" cx="0.2" cy="0" r="1"><stop offset="0" stop-color="#EFC572" stop-opacity="0.12"></stop><stop offset="1" stop-color="#EFC572" stop-opacity="0"></stop></radialGradient>
+    <filter id="ig" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"></feGaussianBlur></filter>
+    
+  </defs>
+
+  
+  <g class="card">
+    <rect x="0" y="8" width="305" height="256" rx="22" fill="url(#glass)" stroke="#4A3722" stroke-width="1"></rect>
+    <rect x="0" y="8" width="305" height="128" rx="22" fill="url(#cg1)"></rect>
+    <rect x="1" y="9" width="303" height="80" rx="21" fill="url(#sheen)"></rect>
+    <ellipse class="ip" cx="46" cy="52" rx="22" ry="22" fill="#F2B25C" opacity="0.12" filter="url(#ig)"></ellipse>
+    <g stroke="#F2B25C" stroke-width="1.8" fill="none">
+      <circle cx="36" cy="46" r="4" fill="#F2B25C"></circle><circle cx="58" cy="40" r="4"></circle><circle cx="56" cy="62" r="4" fill="#F2B25C"></circle>
+      <path d="M40 45 L54 41 M40 49 L53 60 M58 44 L56 58"></path>
+    </g>
+    <text x="28" y="118" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="18" fill="#F2B25C">What I Do</text>
+    <text x="28" y="150" font-size="14" fill="#BCA98C">Design and build scalable</text>
+    <text x="28" y="172" font-size="14" fill="#BCA98C">software systems and AI-</text>
+    <text x="28" y="194" font-size="14" fill="#BCA98C">powered applications that</text>
+    <text x="28" y="216" font-size="14" fill="#BCA98C">solve real-world problems.</text>
+    <rect x="28" y="236" width="34" height="3" rx="1.5" fill="#F2B25C"></rect>
+  </g>
+
+  
+  <g class="card c2" transform="translate(325,0)">
+    <rect x="0" y="8" width="305" height="256" rx="22" fill="url(#glass)" stroke="#4A3722" stroke-width="1"></rect>
+    <rect x="0" y="8" width="305" height="128" rx="22" fill="url(#cg2)"></rect>
+    <rect x="1" y="9" width="303" height="80" rx="21" fill="url(#sheen)"></rect>
+    <ellipse class="ip" cx="46" cy="52" rx="22" ry="22" fill="#6DAFA8" opacity="0.12" filter="url(#ig)" style="animation-delay:1s"></ellipse>
+    <g stroke="#6DAFA8" stroke-width="1.8" fill="none">
+      <circle cx="46" cy="50" r="14"></circle><circle cx="46" cy="50" r="7"></circle><circle cx="46" cy="50" r="2" fill="#6DAFA8"></circle>
+    </g>
+    <text x="28" y="118" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="18" fill="#6DAFA8">Currently Focused On</text>
+    <circle cx="34" cy="145" r="2.5" fill="#6DAFA8"></circle><text x="46" y="150" font-size="14" fill="#BCA98C">AI Assistant Platform</text>
+    <circle cx="34" cy="171" r="2.5" fill="#6DAFA8"></circle><text x="46" y="176" font-size="14" fill="#BCA98C">Data &amp; Streaming Pipelines</text>
+    <circle cx="34" cy="197" r="2.5" fill="#6DAFA8"></circle><text x="46" y="202" font-size="14" fill="#BCA98C">Acadia Learning Platform</text>
+    <rect x="28" y="236" width="34" height="3" rx="1.5" fill="#6DAFA8"></rect>
+  </g>
+
+  
+  <g class="card c3" transform="translate(650,0)">
+    <rect x="0" y="8" width="305" height="256" rx="22" fill="url(#glass)" stroke="#4A3722" stroke-width="1"></rect>
+    <rect x="0" y="8" width="305" height="128" rx="22" fill="url(#cg3)"></rect>
+    <rect x="1" y="9" width="303" height="80" rx="21" fill="url(#sheen)"></rect>
+    <ellipse class="ip" cx="46" cy="52" rx="22" ry="22" fill="#D98C7A" opacity="0.12" filter="url(#ig)" style="animation-delay:2s"></ellipse>
+    <g fill="#D98C7A">
+      <path d="M46 34 L50 48 L64 52 L50 56 L46 70 L42 56 L28 52 L42 48 Z"></path>
+      <path d="M62 38 L64 44 L70 46 L64 48 L62 54 L60 48 L54 46 L60 44 Z" opacity="0.7"></path>
+    </g>
+    <text x="28" y="118" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="18" fill="#D98C7A">Interested In</text>
+    <circle cx="34" cy="145" r="2.5" fill="#D98C7A"></circle><text x="46" y="150" font-size="14" fill="#BCA98C">Agent Architectures</text>
+    <circle cx="34" cy="171" r="2.5" fill="#D98C7A"></circle><text x="46" y="176" font-size="14" fill="#BCA98C">RAG &amp; Memory Systems</text>
+    <circle cx="34" cy="197" r="2.5" fill="#D98C7A"></circle><text x="46" y="202" font-size="14" fill="#BCA98C">Distributed Data Systems</text>
+    <rect x="28" y="236" width="34" height="3" rx="1.5" fill="#D98C7A"></rect>
+  </g>
+
+  
+  <g class="card c4" transform="translate(975,0)">
+    <rect x="0" y="8" width="305" height="256" rx="22" fill="url(#glass)" stroke="#4A3722" stroke-width="1"></rect>
+    <rect x="0" y="8" width="305" height="128" rx="22" fill="url(#cg4)"></rect>
+    <rect x="1" y="9" width="303" height="80" rx="21" fill="url(#sheen)"></rect>
+    <ellipse class="ip" cx="46" cy="52" rx="22" ry="22" fill="#EFC572" opacity="0.12" filter="url(#ig)" style="animation-delay:3s"></ellipse>
+    <g stroke="#EFC572" stroke-width="1.8" fill="none" stroke-linejoin="round">
+      <path d="M46 36 L60 42 V52 C60 60 54 66 46 68 C38 66 32 60 32 52 V42 Z"></path>
+      <path d="M40 51 L44 55 L53 46" stroke-width="2"></path>
+    </g>
+    <text x="28" y="118" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="18" fill="#EFC572">Principles</text>
+    <text x="28" y="150" font-size="14" fill="#BCA98C">Ship simple, reliable</text>
+    <text x="28" y="172" font-size="14" fill="#BCA98C">systems that scale. Measure,</text>
+    <text x="28" y="194" font-size="14" fill="#BCA98C">then optimize. Turn complex</text>
+    <text x="28" y="216" font-size="14" fill="#BCA98C">ideas into clean software.</text>
+    <rect x="28" y="236" width="34" height="3" rx="1.5" fill="#EFC572"></rect>
+  </g>
+</svg>
