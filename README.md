@@ -35,7 +35,7 @@
 </p>
 
 <!-- live animated stack icons -->
-bular 3qator emas 1qatorga sigib qolgani pasdan middleda joylashadigan qilsa boladimi: <!-- live animated stack icons -->
+ <!-- live animated stack icons -->
 <div align="center">
   <img src="https://techstack-generator.vercel.app/java-icon.svg"    width="48" height="48" alt="Java" />
   <img src="https://techstack-generator.vercel.app/python-icon.svg"  width="48" height="48" alt="Python" />
