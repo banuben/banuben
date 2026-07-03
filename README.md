@@ -68,21 +68,7 @@
 <h3 align="center">GitHub Stats</h3>
 
 <p align="center">
-  <img height="180"
-       src="https://github-readme-stats.vercel.app/api?username=banuben&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=1B120A&title_color=57C07A&icon_color=6DAFA8&text_color=BCA98C" />
-
-  <img height="180"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=banuben&layout=compact&hide_border=true&langs_count=8&bg_color=1B120A&title_color=57C07A&text_color=BCA98C" />
-</p>
-
-<p align="center">
-  <img height="180" alt="GitHub streak"
-    src="https://streak-stats.demolab.com?user=banuben&hide_border=true&background=1B120A&border=4A3722&stroke=4A3722&ring=57C07A&fire=EFC572&currStreakLabel=57C07A&sideLabels=BCA98C&dates=BCA98C&currStreakNum=6FCE8C&sideNums=F4E8D2&dayLabels=BCA98C" />
-</p>
-
-<p align="center">
-  <img width="100%" alt="Contribution activity graph"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=banuben&bg_color=1B120A&color=F4E8D2&line=57C07A&point=6DAFA8&area=true&area_color=57C07A&hide_border=true&custom_title=Contribution%20Activity" />
+  <img src="./assets/github-dashboard.svg" width="100%" alt="GitHub statistics — repositories, stars, commits, pull requests, followers, following and 12-month contribution trend" />
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
