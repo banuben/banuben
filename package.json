@@ -1,10 +1,11 @@
 {
-  "name": "banuben-profile",
+  "name": "profile-dashboard",
   "private": true,
   "type": "module",
   "scripts": {
-    "profile": "tsx scripts/generate-profile.ts",
-    "stats": "tsx scripts/generate-stats.ts"
+    "stats": "tsx scripts/generate-stats.ts",
+    "render": "tsx scripts/generate-profile.ts",
+    "build": "npm run stats && npm run render"
   },
   "devDependencies": {
     "tsx": "^4.20.3",
