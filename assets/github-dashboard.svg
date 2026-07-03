@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" fill="none" role="img" aria-label="GitHub statistics" font-family="&#39;Inter&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" fill="none" role="img" aria-label="GitHub statistics" font-family="&#39;Inter&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif">
   <defs>
     <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#241811"></stop><stop offset="1" stop-color="#14100A"></stop></linearGradient>
     <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.05"></stop><stop offset="0.55" stop-color="#ffffff" stop-opacity="0"></stop></linearGradient>
     <radialGradient id="gGlow" cx="0.5" cy="0" r="1"><stop offset="0" stop-color="#57C07A" stop-opacity="0.10"></stop><stop offset="1" stop-color="#57C07A" stop-opacity="0"></stop></radialGradient>
     <radialGradient id="cGlow" cx="0.5" cy="0" r="1"><stop offset="0" stop-color="#6DAFA8" stop-opacity="0.10"></stop><stop offset="1" stop-color="#6DAFA8" stop-opacity="0"></stop></radialGradient>
-    <clipPath id="langClip"><rect x="30" y="386" width="1220" height="16" rx="8"></rect></clipPath>
   </defs>
 
   
@@ -17,23 +16,24 @@
     <text x="42" y="44" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#6FCE8C">CONTRIBUTIONS</text>
     <text x="472" y="44" text-anchor="end" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="10" fill="#8A7A63">past 12 months</text>
 
-    <text x="30" y="120" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="56" letter-spacing="-1" fill="#F4E8D2">95</text>
+    <text x="30" y="120" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="56" letter-spacing="-1" fill="#F4E8D2">100</text>
     <text x="32" y="146" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#BCA98C">total contributions</text>
 
+    
     <line x1="30" y1="254" x2="470" y2="254" stroke="#2E2015" stroke-width="1"></line>
     <g>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(30,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(30,254) scale(1,-0.24)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(30,254) scale(1,-0.22)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(67,254) scale(1,-1)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(67,254) scale(1,-0.08)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(104,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(104,254) scale(1,-0.15)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(104,254) scale(1,-0.14)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(141,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(141,254) scale(1,-0.15)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(141,254) scale(1,-0.14)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(178,254) scale(1,-1)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(178,254) scale(1,-0.08)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(215,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(215,254) scale(1,-0.75)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(215,254) scale(1,-0.68)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(252,254) scale(1,-1)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(252,254) scale(1,-1)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(289,254) scale(1,-1)"></rect>
@@ -45,11 +45,12 @@
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(400,254) scale(1,-1)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(400,254) scale(1,-0.08)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(437,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(437,254) scale(1,-0.33)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(437,254) scale(1,-0.3)"></rect>
     </g>
     <text x="30" y="284" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="10" fill="#8A7A63">updated Jul 2026</text>
   </g>
 
+  
   
   <g transform="translate(520,0)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
@@ -58,6 +59,7 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">6</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
+  
   <g transform="translate(778,0)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -65,13 +67,15 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">0</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
   </g>
+  
   <g transform="translate(1036,0)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
     <text x="22" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#BCA98C">COMMITS</text>
-    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">89</text>
+    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">94</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
+  
   <g transform="translate(520,158)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -79,6 +83,7 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">0</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
   </g>
+  
   <g transform="translate(778,158)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -86,53 +91,12 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">2</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
+  
   <g transform="translate(1036,158)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
     <text x="22" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#BCA98C">FOLLOWING</text>
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">1</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
-  </g>
-
-  
-  <g transform="translate(0,320)">
-    <rect x="0" y="0" width="1280" height="140" rx="20" fill="url(#glass)" stroke="#4A3722"></rect>
-    <rect x="1" y="1" width="1278" height="52" rx="19" fill="url(#sheen)"></rect>
-    <circle cx="30" cy="36" r="3" fill="#6DAFA8"></circle>
-    <text x="42" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#6DAFA8">MOST USED LANGUAGES</text>
-    <text x="1250" y="40" text-anchor="end" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="10" fill="#8A7A63">by bytes of code</text>
-  </g>
-  <g clip-path="url(#langClip)">
-    <rect x="30" y="386" width="1220" height="16" fill="#2E2015"></rect>
-    <rect x="30.0" y="386" width="417.7" height="16" fill="#3178c6"></rect>
-    <rect x="447.2" y="386" width="276.2" height="16" fill="#f1e05a"></rect>
-    <rect x="723.0" y="386" width="221.3" height="16" fill="#3572A5"></rect>
-    <rect x="943.8" y="386" width="139.6" height="16" fill="#00B4AB"></rect>
-    <rect x="1082.9" y="386" width="101.8" height="16" fill="#e34c26"></rect>
-    <rect x="1184.1" y="386" width="66.4" height="16" fill="#563d7c"></rect>
-  </g>
-  <g transform="translate(30,430)">
-    <circle cx="6" cy="-4" r="5" fill="#3178c6"></circle>
-    <text x="18" y="0" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#F4E8D2">TypeScript <tspan fill="#8A7A63">34.2%</tspan></text>
-  </g>
-  <g transform="translate(230,430)">
-    <circle cx="6" cy="-4" r="5" fill="#f1e05a"></circle>
-    <text x="18" y="0" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#F4E8D2">JavaScript <tspan fill="#8A7A63">22.6%</tspan></text>
-  </g>
-  <g transform="translate(430,430)">
-    <circle cx="6" cy="-4" r="5" fill="#3572A5"></circle>
-    <text x="18" y="0" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#F4E8D2">Python <tspan fill="#8A7A63">18.1%</tspan></text>
-  </g>
-  <g transform="translate(630,430)">
-    <circle cx="6" cy="-4" r="5" fill="#00B4AB"></circle>
-    <text x="18" y="0" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#F4E8D2">Dart <tspan fill="#8A7A63">11.4%</tspan></text>
-  </g>
-  <g transform="translate(830,430)">
-    <circle cx="6" cy="-4" r="5" fill="#e34c26"></circle>
-    <text x="18" y="0" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#F4E8D2">HTML <tspan fill="#8A7A63">8.3%</tspan></text>
-  </g>
-  <g transform="translate(1030,430)">
-    <circle cx="6" cy="-4" r="5" fill="#563d7c"></circle>
-    <text x="18" y="0" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#F4E8D2">CSS <tspan fill="#8A7A63">5.4%</tspan></text>
   </g>
 </svg>
