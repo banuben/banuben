@@ -7,21 +7,31 @@
  *
  *   GH_TOKEN=xxxx GH_USER=banuben npx tsx scripts/generate-stats.ts
  */
-
 import { writeFile, mkdir } from "node:fs/promises";
 
 const USER = process.env.GH_USER ?? "banuben";
 const TOKEN = process.env.GH_TOKEN ?? "";
 
-const QUERY = `
+const QUERY = /* GraphQL */ `
   query ($login: String!) {
     user(login: $login) {
+      followers { totalCount }
+      following { totalCount }
+      pullRequests { totalCount }
       repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
         totalCount
         nodes { stargazerCount }
       }
-      contributionsCollection { totalCommitContributions }
-      pullRequests { totalCount }
+      contributionsCollection {
+        totalCommitContributions
+        restrictedContributionsCount
+        contributionCalendar {
+          totalContributions
+          weeks {
+            contributionDays { contributionCount date }
+          }
+        }
+      }
     }
   }`;
 
@@ -30,8 +40,33 @@ type Stats = {
   stars: number;
   commits: number;
   prs: number;
-  updatedAt: string;
+  followers: number;
+  following: number;
+  contributions: number;
+  bars: number[];   // 12 monthly fractions, 0..1
+  updated: string;  // e.g. "Jul 2026"
 };
+
+/** Compact number formatting: 1234 -> "1.2k". */
+function fmt(n: number): string {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, "") + "m";
+  if (n >= 1_000) return (n / 1_000).toFixed(1).replace(/\.0$/, "") + "k";
+  return n.toLocaleString("en-US");
+}
+
+/** Bucket the contribution calendar into 12 monthly fractions (0..1). */
+function monthlyBars(weeks: any[]): number[] {
+  const months = new Array(12).fill(0);
+  for (const w of weeks) {
+    for (const d of w.contributionDays) {
+      const m = new Date(d.date).getMonth();
+      months[m] += d.contributionCount;
+    }
+  }
+  const max = Math.max(1, ...months);
+  // keep a visible floor so empty months still read as a bar
+  return months.map((v) => Math.round((0.08 + 0.92 * (v / max)) * 100) / 100);
+}
 
 async function fetchStats(): Promise<Stats> {
   const res = await fetch("https://api.github.com/graphql", {
@@ -39,31 +74,60 @@ async function fetchStats(): Promise<Stats> {
     headers: {
       Authorization: `bearer ${TOKEN}`,
       "Content-Type": "application/json",
+      "User-Agent": USER,
     },
     body: JSON.stringify({ query: QUERY, variables: { login: USER } }),
   });
+  if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
 
-  if (!res.ok) throw new Error(`GitHub API ${res.status}`);
-  const { data } = await res.json();
-  const repos = data.user.repositories;
+  const { data, errors } = await res.json();
+  if (errors) throw new Error(JSON.stringify(errors));
+
+  const u = data.user;
+  const cc = u.contributionsCollection;
+  const stars = u.repositories.nodes.reduce(
+    (n: number, r: any) => n + r.stargazerCount,
+    0
+  );
 
   return {
-    repos: repos.totalCount,
-    stars: repos.nodes.reduce((n: number, r: any) => n + r.stargazerCount, 0),
-    commits: data.user.contributionsCollection.totalCommitContributions,
-    prs: data.user.pullRequests.totalCount,
-    updatedAt: new Date().toISOString(),
+    repos: u.repositories.totalCount,
+    stars,
+    commits: cc.totalCommitContributions,
+    prs: u.pullRequests.totalCount,
+    followers: u.followers.totalCount,
+    following: u.following.totalCount,
+    contributions: cc.contributionCalendar.totalContributions,
+    bars: monthlyBars(cc.contributionCalendar.weeks),
+    updated: new Date().toLocaleDateString("en-US", {
+      month: "short",
+      year: "numeric",
+    }),
   };
 }
 
 async function main() {
-  const stats = await fetchStats();
+  const s = await fetchStats();
+  // formatted strings the SVG stamps in
+  const out = {
+    ...s,
+    display: {
+      repos: fmt(s.repos),
+      stars: fmt(s.stars),
+      commits: fmt(s.commits),
+      prs: fmt(s.prs),
+      followers: fmt(s.followers),
+      following: fmt(s.following),
+      contributions: s.contributions.toLocaleString("en-US"),
+    },
+  };
   await mkdir("data", { recursive: true });
-  await writeFile("data/stats.json", JSON.stringify(stats, null, 2) + "\n");
-  console.log("wrote data/stats.json", stats);
+  await writeFile("data/stats.json", JSON.stringify(out, null, 2) + "\n");
+  console.log("wrote data/stats.json", out.display);
 }
 
 main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
+
