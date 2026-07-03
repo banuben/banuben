@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="48" viewBox="0 0 1280 48" fill="none" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="dl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4A3722" stop-opacity="0"></stop>
+      <stop offset="0.5" stop-color="#4A3722"></stop>
+      <stop offset="1" stop-color="#4A3722" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="dshine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2B25C" stop-opacity="0"></stop>
+      <stop offset="0.5" stop-color="#F2B25C"></stop>
+      <stop offset="1" stop-color="#F2B25C" stop-opacity="0"></stop>
+    </linearGradient>
+    
+  </defs>
+  <rect x="60" y="23" width="1160" height="1.5" fill="url(#dl)"></rect>
+  <g transform="translate(560,0)"><rect class="sh" x="330" y="23" width="160" height="1.5" fill="url(#dshine)"></rect></g>
+  <g class="pd" transform="translate(640,24)">
+    <path d="M0 -6 L6 0 L0 6 L-6 0 Z" fill="#150F0A" stroke="#F2B25C" stroke-width="1.4"></path>
+    <circle cx="0" cy="0" r="1.8" fill="#F2B25C"></circle>
+  </g>
+</svg>
