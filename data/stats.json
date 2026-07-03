@@ -1,33 +1,60 @@
 {
   "repos": 6,
   "stars": 0,
-  "commits": 92,
+  "commits": 93,
   "prs": 0,
   "followers": 2,
   "following": 1,
-  "contributions": 98,
+  "contributions": 99,
   "bars": [
-    0.23,
+    0.22,
     0.08,
     0.14,
     0.14,
     0.08,
-    0.71,
+    0.69,
     1,
     0.08,
     0.08,
     0.08,
     0.08,
-    0.31
+    0.3
+  ],
+  "languages": [
+    {
+      "name": "Jupyter Notebook",
+      "color": "#DA5B0B",
+      "pct": 97.7
+    },
+    {
+      "name": "TypeScript",
+      "color": "#3178c6",
+      "pct": 0.7
+    },
+    {
+      "name": "CSS",
+      "color": "#663399",
+      "pct": 0.6
+    },
+    {
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "pct": 0.6
+    },
+    {
+      "name": "EJS",
+      "color": "#a91e50",
+      "pct": 0.5
+    }
   ],
   "updated": "Jul 2026",
   "display": {
     "repos": "6",
     "stars": "0",
-    "commits": "92",
+    "commits": "93",
     "prs": "0",
     "followers": "2",
     "following": "1",
-    "contributions": "98"
+    "contributions": "99"
   }
 }
