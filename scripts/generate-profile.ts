@@ -65,10 +65,17 @@ async function main() {
   };
 
   // Add {{repos}}, {{commits}}, … to any asset to make it data-driven.
-  for (const file of ["assets/hero.svg", "assets/footer.svg"]) {
-    const src = await readFile(file, "utf8");
-    await writeFile(file, stamp(src, vars));
-  }
+  const files = [
+  "assets/hero.svg",
+  "assets/cards.svg",
+  "assets/tech-stack.svg",
+  "assets/footer.svg",
+];
+
+for (const file of files) {
+  const src = await readFile(file, "utf8");
+  await writeFile(file, stamp(src, vars));
+}
 
   console.log("regenerated assets for", PROFILE.handle, "with", vars);
 }
