@@ -16,36 +16,36 @@
     <text x="42" y="44" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#6FCE8C">CONTRIBUTIONS</text>
     <text x="472" y="44" text-anchor="end" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="10" fill="#8A7A63">past 12 months</text>
 
-    <text x="30" y="120" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="56" letter-spacing="-1" fill="#F4E8D2">82</text>
+    <text x="30" y="120" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="56" letter-spacing="-1" fill="#F4E8D2">1,243</text>
     <text x="32" y="146" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#BCA98C">total contributions</text>
 
     
     <line x1="30" y1="254" x2="470" y2="254" stroke="#2E2015" stroke-width="1"></line>
     <g>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(30,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(30,254) scale(1,-0.29)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(30,254) scale(1,-0.32)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(67,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(67,254) scale(1,-0.08)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(67,254) scale(1,-0.45)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(104,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(104,254) scale(1,-0.17)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(104,254) scale(1,-0.40)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(141,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(141,254) scale(1,-0.17)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(141,254) scale(1,-0.58)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(178,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(178,254) scale(1,-0.08)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#57C07A" transform="translate(178,254) scale(1,-0.52)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(215,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(215,254) scale(1,-1)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(215,254) scale(1,-0.70)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(252,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(252,254) scale(1,-0.94)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(252,254) scale(1,-0.64)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(289,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(289,254) scale(1,-0.08)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(289,254) scale(1,-0.82)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(326,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(326,254) scale(1,-0.08)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6FCE8C" transform="translate(326,254) scale(1,-0.75)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(363,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(363,254) scale(1,-0.08)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(363,254) scale(1,-0.90)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(400,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(400,254) scale(1,-0.08)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(400,254) scale(1,-0.68)"></rect>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(437,254) scale(1,-1)"></rect>
-      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(437,254) scale(1,-0.42)"></rect>
+      <rect x="0" y="0" width="24" height="86" rx="5" fill="#6DAFA8" transform="translate(437,254) scale(1,-0.78)"></rect>
     </g>
     <text x="30" y="284" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="10" fill="#8A7A63">updated Jul 2026</text>
   </g>
@@ -56,7 +56,7 @@
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
     <text x="22" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#BCA98C">REPOSITORIES</text>
-    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">6</text>
+    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">42</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
   
@@ -64,7 +64,7 @@
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
     <text x="22" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#BCA98C">TOTAL STARS</text>
-    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">0</text>
+    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">1.1k</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
   </g>
   
@@ -72,7 +72,7 @@
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
     <text x="22" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#BCA98C">COMMITS</text>
-    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">76</text>
+    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">1.2k</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
   
@@ -80,7 +80,7 @@
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
     <text x="22" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#BCA98C">PULL REQUESTS</text>
-    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">0</text>
+    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">98</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
   </g>
   
@@ -88,7 +88,7 @@
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
     <text x="22" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#BCA98C">FOLLOWERS</text>
-    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">2</text>
+    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">214</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
   
@@ -96,7 +96,7 @@
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
     <text x="22" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="11" letter-spacing="1" fill="#BCA98C">FOLLOWING</text>
-    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">1</text>
+    <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">63</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
   </g>
 </svg>
