@@ -77,12 +77,30 @@ function monthlyBars(weeks: any[]): number[] {
   return months.map((v) => Math.round((0.08 + 0.92 * (v / max)) * 100) / 100);
 }
 
+/** Languages excluded from the "most used" bar — they inflate byte counts
+ *  (Jupyter embeds base64 outputs) or are markup/data, not real code.
+ *  Add or remove names here to taste. */
+const EXCLUDE = new Set([
+  "Jupyter Notebook",
+  "HTML",
+  "CSS",
+  "SCSS",
+  "Roff",
+  "TeX",
+  "Dockerfile",
+  "Makefile",
+  "Shell",
+  "Batchfile",
+  "PowerShell",
+]);
+
 /** Aggregate language bytes across all repos → top 6 with percentages. */
 function topLanguages(repos: any[]): Lang[] {
   const totals = new Map<string, { bytes: number; color: string }>();
   for (const r of repos) {
     for (const e of r.languages?.edges ?? []) {
       const name = e.node.name;
+      if (EXCLUDE.has(name)) continue;
       const prev = totals.get(name) ?? { bytes: 0, color: e.node.color || "#57C07A" };
       prev.bytes += e.size;
       totals.set(name, prev);
