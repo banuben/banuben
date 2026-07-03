@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="210" viewBox="0 0 1280 210" fill="none" role="img" aria-label="Tech stack" font-family="&#39;Inter&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif">
+  <defs>
+    <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241811"></stop><stop offset="1" stop-color="#1B120A"></stop>
+    </linearGradient>
+    <linearGradient id="tsheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.05"></stop><stop offset="0.6" stop-color="#ffffff" stop-opacity="0"></stop>
+    </linearGradient>
+    
+  </defs>
+
+  
+  <g class="tc" transform="translate(0,0)">
+    <rect x="0" y="6" width="244" height="198" rx="20" fill="url(#tg)" stroke="#4A3722"></rect>
+    <rect x="1" y="7" width="242" height="60" rx="19" fill="url(#tsheen)"></rect>
+    <circle cx="24" cy="34" r="4" fill="#F2B25C"></circle>
+    <text x="40" y="39" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="15" fill="#F4E8D2">Frontend</text>
+    <g transform="translate(20,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><text x="22" y="29" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-weight="700" font-size="18" fill="#F4E8D2">N</text><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Next.js</text></g>
+    <g transform="translate(76,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><circle cx="22" cy="22" r="3" fill="#6DAFA8"></circle><g stroke="#6DAFA8" stroke-width="1.4" fill="none"><ellipse cx="22" cy="22" rx="11" ry="4.5"></ellipse><ellipse cx="22" cy="22" rx="11" ry="4.5" transform="rotate(60 22 22)"></ellipse><ellipse cx="22" cy="22" rx="11" ry="4.5" transform="rotate(120 22 22)"></ellipse></g><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">React</text></g>
+    <g transform="translate(132,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><text x="22" y="28" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-weight="700" font-size="14" fill="#6DAFA8">TS</text><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">TypeScript</text></g>
+    <g transform="translate(188,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><path d="M11 25 q5 -9 11 -4 t11 -1" stroke="#6DAFA8" stroke-width="3" fill="none" stroke-linecap="round"></path><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Tailwind</text></g>
+  </g>
+
+  
+  <g class="tc d2" transform="translate(259,0)">
+    <rect x="0" y="6" width="244" height="198" rx="20" fill="url(#tg)" stroke="#4A3722"></rect>
+    <rect x="1" y="7" width="242" height="60" rx="19" fill="url(#tsheen)"></rect>
+    <circle cx="24" cy="34" r="4" fill="#6DAFA8"></circle>
+    <text x="40" y="39" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="15" fill="#F4E8D2">Backend</text>
+    <g transform="translate(20,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><path d="M22 10 L33 16 V28 L22 34 L11 28 V16 Z" fill="none" stroke="#F2B25C" stroke-width="1.6"></path><text x="22" y="26" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-weight="700" font-size="9" fill="#F2B25C">JS</text><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Node.js</text></g>
+    <g transform="translate(76,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><path d="M22 10 L33 16 V28 L22 34 L11 28 V16 Z" fill="none" stroke="#E0745A" stroke-width="1.6"></path><text x="22" y="27" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-weight="700" font-size="12" fill="#E0745A">Ne</text><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">NestJS</text></g>
+    <g transform="translate(132,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><text x="22" y="27" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-weight="700" font-size="13" fill="#F4E8D2">ex</text><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Express</text></g>
+    <g transform="translate(188,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><g stroke="#D9789A" stroke-width="1.3" fill="none"><path d="M22 11 L32 28 H12 Z"></path><circle cx="22" cy="11" r="2" fill="#D9789A"></circle><circle cx="32" cy="28" r="2" fill="#D9789A"></circle><circle cx="12" cy="28" r="2" fill="#D9789A"></circle></g><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">GraphQL</text></g>
+  </g>
+
+  
+  <g class="tc d3" transform="translate(518,0)">
+    <rect x="0" y="6" width="244" height="198" rx="20" fill="url(#tg)" stroke="#4A3722"></rect>
+    <rect x="1" y="7" width="242" height="60" rx="19" fill="url(#tsheen)"></rect>
+    <circle cx="24" cy="34" r="4" fill="#D98C7A"></circle>
+    <text x="40" y="39" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="15" fill="#F4E8D2">Database</text>
+    <g transform="translate(20,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><g stroke="#6DAFA8" stroke-width="1.4" fill="none"><ellipse cx="22" cy="15" rx="10" ry="4"></ellipse><path d="M12 15 V29 a10 4 0 0 0 20 0 V15"></path></g><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">PostgreSQL</text></g>
+    <g transform="translate(76,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><path d="M22 10 C28 18 28 28 22 34 C16 28 16 18 22 10 Z" fill="#F2B25C" opacity="0.85"></path><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">MongoDB</text></g>
+    <g transform="translate(132,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><path d="M22 11 L33 22 L22 33 L11 22 Z" fill="none" stroke="#E0745A" stroke-width="1.6"></path><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Redis</text></g>
+    <g transform="translate(188,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><text x="22" y="27" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-weight="700" font-size="15" fill="#F4E8D2">K</text><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Kafka</text></g>
+  </g>
+
+  
+  <g class="tc d4" transform="translate(777,0)">
+    <rect x="0" y="6" width="244" height="198" rx="20" fill="url(#tg)" stroke="#4A3722"></rect>
+    <rect x="1" y="7" width="242" height="60" rx="19" fill="url(#tsheen)"></rect>
+    <circle cx="24" cy="34" r="4" fill="#EFC572"></circle>
+    <text x="40" y="39" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="15" fill="#F4E8D2">Infrastructure</text>
+    <g transform="translate(20,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><g fill="#6DAFA8"><rect x="13" y="20" width="5" height="5"></rect><rect x="19" y="20" width="5" height="5"></rect><rect x="25" y="20" width="5" height="5"></rect><rect x="19" y="14" width="5" height="5"></rect><path d="M11 26 h20 q-2 6 -10 6 t-10 -6" opacity="0.7"></path></g><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Docker</text></g>
+    <g transform="translate(76,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><path d="M22 11 L33 22 L22 33 L11 22 Z" fill="none" stroke="#F2B25C" stroke-width="1.6"></path><text x="22" y="26" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-weight="700" font-size="11" fill="#F2B25C">N</text><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Nginx</text></g>
+    <g transform="translate(132,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><g stroke="#F4E8D2" stroke-width="1.4" fill="none"><circle cx="22" cy="22" r="7"></circle><path d="M22 11 v4 M22 29 v4 M11 22 h4 M29 22 h4 M14 14 l3 3 M30 30 l-3 -3 M30 14 l-3 3 M14 30 l3 -3"></path></g><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Actions</text></g>
+    <g transform="translate(188,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><text x="22" y="27" text-anchor="middle" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-weight="700" font-size="12" fill="#6DAFA8">PM2</text><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">PM2</text></g>
+  </g>
+
+  
+  <g class="tc d5" transform="translate(1036,0)">
+    <rect x="0" y="6" width="244" height="198" rx="20" fill="url(#tg)" stroke="#4A3722"></rect>
+    <rect x="1" y="7" width="242" height="60" rx="19" fill="url(#tsheen)"></rect>
+    <circle cx="24" cy="34" r="4" fill="#F2B25C"></circle>
+    <text x="40" y="39" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="15" fill="#F4E8D2">AI &amp; Data</text>
+    <g transform="translate(20,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><g fill="none" stroke-width="2"><path d="M17 14 h6 a4 4 0 0 1 4 4 v3 h-10 a4 4 0 0 0 -4 4" stroke="#6DAFA8"></path><path d="M27 30 h-6 a4 4 0 0 1 -4 -4 v-3 h10 a4 4 0 0 0 4 -4" stroke="#EFC572"></path></g><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Python</text></g>
+    <g transform="translate(76,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><path d="M22 12 C18 18 16 22 16 26 a6 6 0 0 0 12 0 c0 -3 -2 -5 -3 -7" fill="none" stroke="#E0824A" stroke-width="1.8"></path><circle cx="26" cy="15" r="1.6" fill="#E0824A"></circle><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">PyTorch</text></g>
+    <g transform="translate(132,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><path d="M20 11 L15 24 h6 l-3 10 12 -14 h-6 l4 -9 Z" fill="#EFC572"></path><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">Spark</text></g>
+    <g transform="translate(188,74)"><rect width="44" height="44" rx="12" fill="#17100A" stroke="#4A3722"></rect><g stroke="#F2B25C" stroke-width="1.8" fill="none" stroke-linecap="round"><path d="M18 26 l-3 3 a4 4 0 0 1 -6 -6 l3 -3"></path><path d="M26 18 l3 -3 a4 4 0 0 1 6 6 l-3 3"></path><path d="M18 24 l6 -6"></path></g><text x="22" y="60" text-anchor="middle" font-size="10" fill="#BCA98C">LangChain</text></g>
+  </g>
+</svg>
