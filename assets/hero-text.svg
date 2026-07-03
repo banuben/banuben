@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="394" viewBox="0 0 580 394" fill="none" role="img" aria-label="banuben — I build intelligent systems that scale">
+  <title>banuben — I build intelligent systems that scale</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B120A"></stop><stop offset="1" stop-color="#120C07"></stop>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.9" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#F2B25C" stop-opacity="0.16"></stop><stop offset="1" stop-color="#F2B25C" stop-opacity="0"></stop>
+    </radialGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.07"></stop><stop offset="1" stop-color="#ffffff" stop-opacity="0.02"></stop>
+    </linearGradient>
+    
+  </defs>
+
+  <rect x="1" y="1" width="578" height="392" rx="10" fill="url(#bg)" stroke="#4A3722"></rect>
+  <rect x="1" y="1" width="578" height="392" rx="10" fill="url(#lamp)"></rect>
+  
+  <g class="flick"><circle cx="500" cy="70" r="2" fill="#F2B25C" opacity="0.5"></circle><circle cx="530" cy="150" r="1.5" fill="#6DAFA8" opacity="0.5"></circle><circle cx="470" cy="330" r="1.6" fill="#D98C7A" opacity="0.4"></circle></g>
+
+  
+  <g class="rise" transform="translate(40,52)">
+    <text font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="16" fill="#F2B25C" font-weight="500">banuben@github:<tspan fill="#BCA98C">~$</tspan></text>
+    <rect class="cursor" x="176" y="-13" width="9" height="17" fill="#F2B25C"></rect>
+  </g>
+
+  
+  <g font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="45" letter-spacing="-1">
+    <text class="rise r2" x="39" y="118" fill="#F4E8D2">I build</text>
+    <text class="rise r3" x="39" y="168" fill="#F2B25C">intelligent systems</text>
+    <text class="rise r4" x="39" y="218" fill="#F4E8D2">that scale.</text>
+  </g>
+
+  
+  <g class="rise r5">
+    <rect x="40" y="242" width="3" height="44" rx="1.5" fill="#F2B25C"></rect>
+    <text x="56" y="260" font-family="&#39;Inter&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-size="15" fill="#BCA98C">Full Stack &amp; AI / Big Data Engineer — backend</text>
+    <text x="56" y="281" font-family="&#39;Inter&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-size="15" fill="#BCA98C">architecture, data pipelines &amp; production AI.</text>
+  </g>
+
+  
+  <g class="rise r6" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="14" font-weight="500" letter-spacing="0.5">
+    <g transform="translate(40,308)"><rect width="214" height="42" rx="11" fill="url(#chip)" stroke="#4A3722"></rect><circle cx="20" cy="21" r="4" fill="#F2B25C"></circle><text x="34" y="26" fill="#F4E8D2">FULL STACK ENGINEER</text></g>
+    <g transform="translate(266,308)"><rect width="248" height="42" rx="11" fill="url(#chip)" stroke="#4A3722"></rect><circle cx="20" cy="21" r="4" fill="#6DAFA8"></circle><text x="34" y="26" fill="#F4E8D2">AI &amp; BIG DATA ENGINEER</text></g>
+  </g>
+</svg>
