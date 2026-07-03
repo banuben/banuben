@@ -68,10 +68,11 @@
 <h3 align="center">GitHub Stats</h3>
 
 <p align="center">
-  <img height="180" alt="banuben's GitHub stats"
-    src="https://github-readme-stats.vercel.app/api?username=banuben&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=1B120A&title_color=57C07A&icon_color=6DAFA8&text_color=BCA98C&ring_color=57C07A" />
-  <img height="180" alt="Top languages"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=banuben&layout=compact&hide_border=true&langs_count=8&bg_color=1B120A&title_color=57C07A&text_color=BCA98C" />
+  <img height="180"
+       src="https://github-readme-stats.vercel.app/api?username=banuben&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=1B120A&title_color=57C07A&icon_color=6DAFA8&text_color=BCA98C" />
+
+  <img height="180"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=banuben&layout=compact&hide_border=true&langs_count=8&bg_color=1B120A&title_color=57C07A&text_color=BCA98C" />
 </p>
 
 <p align="center">
