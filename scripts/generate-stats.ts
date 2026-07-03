@@ -22,7 +22,12 @@ const QUERY = /* GraphQL */ `
       pullRequests { totalCount }
       repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
         totalCount
-        nodes { stargazerCount }
+        nodes {
+          stargazerCount
+          languages(first: 10, orderBy: { field: SIZE, direction: DESC }) {
+            edges { size node { name color } }
+          }
+        }
       }
       contributionsCollection {
         totalCommitContributions
@@ -37,6 +42,8 @@ const QUERY = /* GraphQL */ `
     }
   }`;
 
+type Lang = { name: string; color: string; pct: number };
+
 type Stats = {
   repos: number;
   stars: number;
@@ -46,6 +53,7 @@ type Stats = {
   following: number;
   contributions: number;
   bars: number[];   // 12 monthly fractions, 0..1
+  languages: Lang[]; // top languages by bytes
   updated: string;  // e.g. "Jul 2026"
 };
 
@@ -66,8 +74,27 @@ function monthlyBars(weeks: any[]): number[] {
     }
   }
   const max = Math.max(1, ...months);
-  // keep a visible floor so empty months still read as a bar
   return months.map((v) => Math.round((0.08 + 0.92 * (v / max)) * 100) / 100);
+}
+
+/** Aggregate language bytes across all repos → top 6 with percentages. */
+function topLanguages(repos: any[]): Lang[] {
+  const totals = new Map<string, { bytes: number; color: string }>();
+  for (const r of repos) {
+    for (const e of r.languages?.edges ?? []) {
+      const name = e.node.name;
+      const prev = totals.get(name) ?? { bytes: 0, color: e.node.color || "#57C07A" };
+      prev.bytes += e.size;
+      totals.set(name, prev);
+    }
+  }
+  const all = [...totals.entries()].sort((a, b) => b[1].bytes - a[1].bytes);
+  const sum = all.reduce((n, [, v]) => n + v.bytes, 0) || 1;
+  return all.slice(0, 6).map(([name, v]) => ({
+    name,
+    color: v.color || "#57C07A",
+    pct: Math.round((v.bytes / sum) * 1000) / 10, // one decimal
+  }));
 }
 
 async function fetchStats(): Promise<Stats> {
@@ -101,6 +128,7 @@ async function fetchStats(): Promise<Stats> {
     following: u.following.totalCount,
     contributions: cc.contributionCalendar.totalContributions,
     bars: monthlyBars(cc.contributionCalendar.weeks),
+    languages: topLanguages(u.repositories.nodes),
     updated: new Date().toLocaleDateString("en-US", {
       month: "short",
       year: "numeric",
@@ -110,7 +138,6 @@ async function fetchStats(): Promise<Stats> {
 
 async function main() {
   const s = await fetchStats();
-  // formatted strings the SVG stamps in
   const out = {
     ...s,
     display: {
@@ -125,11 +152,10 @@ async function main() {
   };
   await mkdir("data", { recursive: true });
   await writeFile("data/stats.json", JSON.stringify(out, null, 2) + "\n");
-  console.log("wrote data/stats.json", out.display);
+  console.log("wrote data/stats.json", out.display, s.languages.map((l) => l.name));
 }
 
 main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-
