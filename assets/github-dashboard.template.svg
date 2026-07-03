@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" fill="none" role="img" aria-label="GitHub statistics" font-family="&#39;Inter&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" fill="none" role="img" aria-label="GitHub statistics" font-family="&#39;Inter&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif">
   <defs>
     <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#241811"></stop><stop offset="1" stop-color="#14100A"></stop></linearGradient>
     <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.05"></stop><stop offset="0.55" stop-color="#ffffff" stop-opacity="0"></stop></linearGradient>
     <radialGradient id="gGlow" cx="0.5" cy="0" r="1"><stop offset="0" stop-color="#57C07A" stop-opacity="0.10"></stop><stop offset="1" stop-color="#57C07A" stop-opacity="0"></stop></radialGradient>
     <radialGradient id="cGlow" cx="0.5" cy="0" r="1"><stop offset="0" stop-color="#6DAFA8" stop-opacity="0.10"></stop><stop offset="1" stop-color="#6DAFA8" stop-opacity="0"></stop></radialGradient>
+    <clipPath id="langClip"><rect x="30" y="386" width="1220" height="16" rx="8"></rect></clipPath>
   </defs>
 
   
@@ -19,7 +20,6 @@
     <text x="30" y="120" font-family="&#39;Space Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,sans-serif" font-weight="700" font-size="56" letter-spacing="-1" fill="#F4E8D2">{{contributions}}</text>
     <text x="32" y="146" font-family="&#39;Inter&#39;,system-ui,sans-serif" font-size="13" fill="#BCA98C">total contributions</text>
 
-    
     <line x1="30" y1="254" x2="470" y2="254" stroke="#2E2015" stroke-width="1"></line>
     <g>
       <rect x="0" y="0" width="24" height="86" rx="5" fill="#3a2a17" transform="translate(30,254) scale(1,-1)"></rect>
@@ -51,7 +51,6 @@
   </g>
 
   
-  
   <g transform="translate(520,0)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -59,7 +58,6 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">{{repos}}</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
-  
   <g transform="translate(778,0)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -67,7 +65,6 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">{{stars}}</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
   </g>
-  
   <g transform="translate(1036,0)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -75,7 +72,6 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">{{commits}}</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
-  
   <g transform="translate(520,158)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -83,7 +79,6 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">{{prs}}</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
   </g>
-  
   <g transform="translate(778,158)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -91,7 +86,6 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">{{followers}}</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#57C07A"></rect>
   </g>
-  
   <g transform="translate(1036,158)">
     <rect x="0" y="0" width="242" height="142" rx="18" fill="url(#glass)" stroke="#4A3722"></rect>
     <rect x="1" y="1" width="240" height="52" rx="17" fill="url(#sheen)"></rect>
@@ -99,4 +93,18 @@
     <text x="22" y="100" font-family="&#39;Space Grotesk&#39;,system-ui,sans-serif" font-weight="700" font-size="42" fill="#F4E8D2">{{following}}</text>
     <rect x="22" y="116" width="30" height="3" rx="1.5" fill="#6DAFA8"></rect>
   </g>
+
+  
+  <g transform="translate(0,320)">
+    <rect x="0" y="0" width="1280" height="140" rx="20" fill="url(#glass)" stroke="#4A3722"></rect>
+    <rect x="1" y="1" width="1278" height="52" rx="19" fill="url(#sheen)"></rect>
+    <circle cx="30" cy="36" r="3" fill="#6DAFA8"></circle>
+    <text x="42" y="40" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="12" letter-spacing="1.5" fill="#6DAFA8">MOST USED LANGUAGES</text>
+    <text x="1250" y="40" text-anchor="end" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace" font-size="10" fill="#8A7A63">by bytes of code</text>
+  </g>
+  <g clip-path="url(#langClip)">
+    <rect x="30" y="386" width="1220" height="16" fill="#2E2015"></rect>
+    {{langBars}}
+  </g>
+  {{langLegend}}
 </svg>
