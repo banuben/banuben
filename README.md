@@ -64,11 +64,12 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-<!-- ░░ GITHUB STATS ░░ -->
+<!-- ░░ GITHUB STATS  (live — auto-fetches real data on every view, no setup) ░░ -->
 <h3 align="center">GitHub Stats</h3>
 
 <p align="center">
-  <img src="./assets/github-dashboard.svg" width="100%" alt="GitHub statistics — repositories, stars, commits, pull requests, followers, following and 12-month contribution trend" />
+  <img height="195" alt="banuben's GitHub stats"
+    src="https://github-readme-stats.vercel.app/api?username=banuben&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=1B120A&title_color=57C07A&icon_color=6DAFA8&text_color=BCA98C&ring_color=57C07A" />
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
