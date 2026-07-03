@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="200" viewBox="0 0 156 200" fill="none" role="img" aria-label="Now playing" font-family="&#39;JetBrains Mono&#39;,ui-monospace,monospace">
+  <defs>
+    <linearGradient id="npbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#241811"></stop><stop offset="1" stop-color="#17100A"></stop></linearGradient>
+    <radialGradient id="npglow" cx="0.5" cy="0.3" r="0.7"><stop offset="0" stop-color="#F2B25C" stop-opacity="0.12"></stop><stop offset="1" stop-color="#F2B25C" stop-opacity="0"></stop></radialGradient>
+  </defs>
+  <rect x="1" y="1" width="154" height="198" rx="16" fill="url(#npbg)" stroke="#4A3722"></rect>
+  <rect x="1" y="1" width="154" height="198" rx="16" fill="url(#npglow)"></rect>
+
+  <circle cx="20" cy="22" r="3" fill="#6DAFA8">
+    
+  </circle>
+  <text x="30" y="26" font-size="9.5" letter-spacing="1" fill="#6DAFA8">NOW PLAYING</text>
+
+  
+  <g>
+    
+    <circle cx="78" cy="82" r="34" fill="#0F0B07" stroke="#4A3722" stroke-width="1.5"></circle>
+    <circle cx="78" cy="82" r="27" fill="none" stroke="#2E2015" stroke-width="1"></circle>
+    <circle cx="78" cy="82" r="20" fill="none" stroke="#2E2015" stroke-width="1"></circle>
+    <circle cx="78" cy="82" r="11" fill="#F2B25C"></circle>
+    <circle cx="78" cy="82" r="3" fill="#17100A"></circle>
+    <rect x="76" y="48" width="4" height="8" rx="2" fill="#D98C7A"></rect>
+  </g>
+
+  
+  <g fill="#57C07A">
+    <rect x="58" y="128" width="6" height="12" rx="2" fill="#57C07A"></rect>
+    <rect x="68" y="128" width="6" height="12" rx="2" fill="#6FCE8C"></rect>
+    <rect x="78" y="128" width="6" height="12" rx="2" fill="#F2B25C"></rect>
+    <rect x="88" y="128" width="6" height="12" rx="2" fill="#6FCE8C"></rect>
+    <rect x="98" y="128" width="6" height="12" rx="2" fill="#57C07A"></rect>
+  </g>
+
+  <text x="78" y="160" text-anchor="middle" font-family="&#39;Space Grotesk&#39;,sans-serif" font-weight="700" font-size="12" fill="#F4E8D2">lofi beats</text>
+  <text x="78" y="174" text-anchor="middle" font-size="9" fill="#BCA98C">to build &amp; ship to</text>
+
+  
+  <rect x="19" y="186" width="118" height="3" rx="1.5" fill="#2E2015"></rect>
+  <rect x="19" y="186" width="8" height="3" rx="1.5" fill="#F2B25C">
+    
+  </rect>
+</svg>
