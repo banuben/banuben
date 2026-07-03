@@ -1,12 +1,14 @@
 /**
  * generate-stats.ts
  * -----------------------------------------------------------------------------
- * Pulls a lightweight stats snapshot from the GitHub GraphQL API and writes it
- * to data/stats.json. generate-profile.ts reads that file to stamp live numbers
- * into the SVG assets. Run in CI (see .github/workflows/profile.yml).
+ * Fetches every metric shown on assets/github-dashboard.svg straight from the
+ * GitHub GraphQL API — no github-readme-stats / streak-stats / top-langs / any
+ * external SVG service. Writes the snapshot to data/stats.json, which
+ * generate-profile.ts stamps into the dashboard template.
  *
- *   GH_TOKEN=xxxx GH_USER=banuben npx tsx scripts/generate-stats.ts
+ *   GH_TOKEN=<token> GH_USER=banuben npx tsx scripts/generate-stats.ts
  */
+
 import { writeFile, mkdir } from "node:fs/promises";
 
 const USER = process.env.GH_USER ?? "banuben";
